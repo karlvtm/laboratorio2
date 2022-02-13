@@ -1,0 +1,20 @@
+.centro{
+    align-items: center;
+    display: flex;
+    top: 50%;
+    left: 50%;
+}
+
+.botonEj1{
+    height: 75px;
+    width: 130px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botonEj1:hover{
+    background-color: rgb(247, 62, 99);
+}
