@@ -6,11 +6,13 @@ import ProfilePic from "../ProfilePic/ProfilePic.js";
 
 const Info = (props) =>{
     return(
-        <tr>
+        <tr className="users-items">
             <td>
-                <Card>
-                    <div>
+                <Card className="tarjetita">
+                    <div className="fotoPerfil">
                         <ProfilePic image={props.image} alt={props.name}/>
+                    </div>
+                    <div className="detalles">
                         <p>{props.name}</p>
                         <p>{props.date}</p>
                         <button>Connect</button>

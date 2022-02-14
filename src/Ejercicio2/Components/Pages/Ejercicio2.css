@@ -3,9 +3,11 @@
     display: flex;
     top: 50%;
     left: 50%;
+    margin-left: 750px;
+    margin-top: 350px;
 }
 
-.botonEj1{
+.botonEj2{
     height: 75px;
     width: 130px;
     background-color: crimson;
@@ -13,8 +15,10 @@
     text-align: center;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
+    left: 14px;
+    margin-left: 125px;
 }
 
-.botonEj1:hover{
+.botonEj2:hover{
     background-color: rgb(247, 62, 99);
 }

@@ -1,0 +1,29 @@
+.fotoPerfil{
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    left: 34px;
+    text-align: center;
+}
+
+.tarjetita{
+    padding: 0;
+}
+
+.detalles{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.detalles button{
+    height: 2rem;
+    width: 8rem;
+    font-size: 15px;
+    color: grey;
+    background: white;
+}

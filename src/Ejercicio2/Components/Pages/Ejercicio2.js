@@ -11,14 +11,20 @@ const Ejercicio2 = () =>{
     }
 
     return(
-        <ul className="centro">
-            <li>
-                <h1>{botonazo===1? `Me han clickeado ${botonazo} vez!`:`Me han clickeado ${botonazo} veces!`}</h1>
-            </li>
-            <li>
-                <button onClick={buttonClickHandler} className="botonEj1">Haz click aqui</button>
-            </li>
-        </ul>
+        <table className="centro">
+            <tbody>
+                <tr>
+                    <td>
+                        <h1>{botonazo===1? `Me han clickeado ${botonazo} vez!`:`Me han clickeado ${botonazo} veces!`}</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onClick={buttonClickHandler} className="botonEj2">Haz click aqui</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     );
 }
 
